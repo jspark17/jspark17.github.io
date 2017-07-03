@@ -1,0 +1,111 @@
+@import "UTF-8";
+
+/*----------reset----------*/
+body,h1,h2,h3,p,ul,li{display: block;margin: 0;padding: 0;}
+li{list-style: none}
+img{border: 0 none;vertical-align: top}
+a{text-decoration: none;color: #5f6164;}
+
+/*----------common----------*/
+._cen{width: 1024px;margin: 0 auto;}
+._clearfix:after{display: block;clear: both;content: '';}
+.subMainCen{width: 674px;margin: 0 auto;}
+
+/*----------layout----------*/
+.wrap{}
+/*header*/
+.header{position: relative;z-index: 30;width: 100%;height: 60px;background-color: #00c73c;border-bottom:1px solid #00a732}
+.title{float: left}
+.title .logo_wrap, .title .subTitle{float: left;}
+.logo_wrap .logo,.subTitle .naver_memo{display: block;background-image: url('../imgs/sp_deskhome_gnb_170308.png');background-repeat: no-repeat;text-indent: -9999px;}
+.logo_wrap{margin: 0 10px 0 20px;}
+.logo{background: 0 -73px;width: 55px;height: 12px;margin-top: 24px;}
+.naver_memo{background: 0 -173px;width: 42px;height: 24px;margin-top: 18px;}
+
+.utility{float: right;}
+.utility .loginWrap,.utility .allmenu{float: left}
+.loginWrap .btn_logIn{display: block;background-color: #00c73c; border:1px solid #00a732;padding: 3px 5px;color: #fff; font-size: 12px;margin-right: 22px;margin-top: 18px;}
+.allmenu{width: 60px;height: 50px;border-left: 1px solid #999;}
+.allmenu .btn_allMenu{display: inline-block; text-align: center;	background: url('../imgs/sp_gnb_v12.png') no-repeat -260px -120px;width: 16px;height: 16px;text-indent: -9999px;margin:22px}
+
+._gnb{width: 368px;margin: 0 auto;padding-top: 17px;}
+._gnbMenu{float: left;margin-right: 20px;display: block;background-image: url(../imgs/sp_deskhome_gnb_170308.png);background-repeat: no-repeat;width: 26px;height: 26px;text-indent: -9999px;}
+.naverMe{background-position: 0 -4px;}
+.naverMail{background-position: -49px -3px;}
+.naverCalendar{background-position: -147px -4px;}
+.naverMemo{background-position: -196px -37px;}
+.naverContact{background-position: -245px -4px;}
+.naverCloud{background-position: -245px -4px;}
+.naverOffice{background-position: -343px -4px;}
+.naverMoneybook{background-position: -434px -3px;}
+/*body*/
+.body{position: relative;z-index: 20;
+background-color: #f2f2f2;padding-top: 15px;}
+.subMain{width: 726px;float: left;margin-right: 16px;border: 1px solid #e1e1e1;background-color: #faf9f9;}
+.subSide{width: 280px;float: left;}
+
+/*footer*/
+.footer{position: relative;z-index: 10;
+font-size: 9px;font-weight: bold;height: 116px;background-color: #f2f2f2;padding-top: 50px;}
+.footerCover{text-align: center;}
+.footerCover p{margin:0 auto;}
+.footer span{color:#00a732}
+
+
+/*----------custom----------*/
+/*왼쪽 메인 메뉴*/
+
+/*상단 제목*/
+.subtitleWrap{background-color: #fff;height: 93px;padding-top: 35px;border-radius: 5px}
+.subtitleWrap .subMainCen{height: 93px;border-bottom: 1px solid #e3e3e3;}
+.subtitleBox{margin-left: 15px;background: url('../imgs/sp_login_memo_1704.png') no-repeat 0 0;width: 255px;height: 61px;text-indent: -9999px;}
+/*슬라이더*/
+.subSliderAllWrap{padding-top: 32px}
+.subSlide{background-color: #faf9f9;}
+/*bxSlider 수정*/
+.bx-prev,.bx-next{background-image: url(../imgs/sp_login_140527.png) !important;background-repeat: no-repeat;width: 23px !important;height: 43px !important;}
+.bx-wrapper .bx-prev,.bx-wrapper .bx-prev:hover{background-position: -110px -50px;}
+.bx-wrapper .bx-next,.bx-wrapper .bx-next:hover{background-position: -140px -50px;}
+.bx-wrapper .bx-pager{padding-top: 0;bottom: -5px}
+.bx-wrapper .bx-pager.bx-default-pager a{background-color: #e7e6e6;border: 1px solid #cccbca}
+.bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus, .bx-wrapper .bx-pager.bx-default-pager a:hover {
+    background: #57c129; border: 1px solid #42a02e}
+.bx-wrapper .bx-controls-auto, .bx-wrapper .bx-pager{width:168px;margin-left: 50%;left: -84px;background-color: #faf9f9;}
+.bx-viewport{border-bottom: 1px solid #e3e3e3;}
+/*하단메뉴*/
+.subDoList{float: left;}
+.subDoList1,.subDoList2{padding-right: 15px;border-right: 1px solid #e1e1e1;}
+.subDo{;background-image: url(../imgs/sp_login_memo_1704.png) ;background-repeat: no-repeat;text-indent: -9999px;height: 110px;}
+.subDo1{background-position: 0 -100px;width: 212px;}
+.subDo2{background-position: 0 -220px;width: 212px;}
+.subDo3{background-position: 0 -340px;width: 218px;}
+
+/*오른쪽 사이드 메뉴*/
+/*로그인박스*/
+.subSide .loginWrap{height: 98px;background-color: #f2f2f2;border: 1px solid #cccbca;padding: 8px 20px;font-size: 11.5px; letter-spacing: -1px;}
+.loginTl{color: #929292;}
+.btn_login{display: block;width: auto;height: 34px;background-color: #fff;border: 1px solid #cccbca;border-radius: 5px;margin: 10px 0;}
+.btn_login span{display: block;background: url(../imgs/sp_login_140527.png) no-repeat 0 -308px;width: 93px;height: 14px;text-indent: -9999px;margin:11px 0 0 72px}
+.loginReList li a:hover{text-decoration: underline;}
+.schId,.schPW{float: left;margin-right: 5px;}
+.join{float: right;}
+/*안내사항*/
+.noticeWrap{font-size: 12px;line-height: 1.5; margin-top: 15px;}
+/*세로슬라이드*/
+.talkWrap{border: 1px solid #cccbca;letter-spacing: -1px;font-weight: bold;color: #000;margin-top: 15px;}
+.TWtitle{background-color: #fafafa;font-size: 13px;border-bottom: 1px solid #cccbca;height: 34px;line-height: 34px;}
+.TWtitle .title{float: left; padding-left: 16px;}
+.TWtitle .title span{color: #3e73cc;}
+.TWtitle .title .bx-controls{display: none;}
+.TWtitle .myPager{float: right; padding: 6px 6px 0 0}
+.TWtitle .btn{float: left;background-image: url(../imgs/sp_login_140527.png);background-repeat: no-repeat; text-indent: -9999px;width: 23px;height: 22px;}
+.TWtitle #slider-prev{background-position: -17px -70px;}
+.TWtitle #slider-next{background-position: -43px -70px;}
+.TWlist li{border-top: 1px solid #cccbca;font-size: 12px; padding: 9px 18px 9px 45px;background-color: #fff;}
+.TWlist li span{position: absolute;display: block;background: url(../imgs/sp_login_140527.png) no-repeat -80px -50px;width: 22px;height: 22px;top: 15px;left: 15px}
+.talkWrap .bx-pager{display: none;}
+/*배너*/
+.bannerWrap .banner{margin-top: 8px;}
+.bannerSD a{display: block;background: url(../imgs/login_banner_s_1704.png) no-repeat ;width: 280px;height:84px;text-indent: -9999px;}
+.bannerMa a{display: block;background: url(../imgs/memo_banner_1704.png) no-repeat ;width: 280px;height:150px;text-indent: -9999px;}
+
